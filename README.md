@@ -12,14 +12,18 @@ VS Code
 1 Open the DMrecorder working directory with VS Code
 - Open a terminal in the "client" directory and run : npm install 
 - Open a terminal in the "server" directory and run : npm install 
-This will install all the dependencies.
 
-2 Launch Docker
+- This will install all the dependencies.
+
+2 Container db + adminer +web
+- Launch Docker
 - From VS Code open a terminal at the root of the project 
 - Run the command : docker compose up
 
 3 Create the database
-- Open Adminer on a browser at the address "http://localhost:8090" 
+
+- Open Adminer on a browser at the address "http://localhost:8090"
+- On adminer root Azerty@123
 - Create a database named "dmMeetingRecorder
 
 4 Launch the API
