@@ -1,21 +1,35 @@
+# MeetingRecorder
+
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Meeting Recorder Express, Vue.js, MySQL, Node.js, Docker. 
+
+# Required
+Node.js
+Docker Desktop
+VS Code
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1 Open the DMrecorder working directory with VS Code
+- Open a terminal in the "client" directory and run : npm install 
+- Open a terminal in the "server" directory and run : npm install 
+This will install all the dependencies.
+
+2 Launch Docker
+- From VS Code open a terminal at the root of the project 
+- Run the command : docker compose up
+
+3 Create the database
+- Open Adminer on a browser at the address "http://localhost:8090" 
+- Create a database named "dmMeetingRecorder
+
+4 Launch the API
+- From VS Code open a new terminal at the root of the "server" directory 
+- Run the command npm run dev
+
+5 Open the application on a browser "http://localhost:8080"
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+TODO: Update docker file. 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)# MeetingRecorder
-# MeetingRecorder
+TODO: To be continued with IHM and features
